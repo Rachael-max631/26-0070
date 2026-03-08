@@ -37,12 +37,7 @@ section-title {
 	color: bue;
 	font-weight: bold;
 	font-style: italic;
-}
-
-categories {
-	text-align: left;
-	display: inline-block;
-	margin-bottom: 100px;
+	
 }
 
 our services-title {
@@ -129,4 +124,45 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
+}
+
+body {
+	text-align: center;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: pink;
+	color: black;
+	margin: 5px;
+	border-radius: 5px;
+}	
+
+nav a:hover{
+	bacground-color: hotpink;
+	color: white;
+}
+
+footer {
+	background-color: pink;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+ul {
+	text-align: center;
+	width: 200px;
+	margin: auto;
+	list-style-position: inside;
+	text-align: center;
+}
+
+ol {
+	text-align: center;
+	width: 200px;
+	margin: auto;
+	list-style-position: inside;
+	text-align: center;
 }
